@@ -27,6 +27,10 @@
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
+
+/* SVG asterisk-merke (erstatter emoji ✳ for skarp, lik visning på alle enheter) */
+.ast{width:1em;height:1em;display:inline-block;vertical-align:-0.13em;fill:currentColor;flex:none}
+
 html{scroll-behavior:smooth}
 body{
   font-family:var(--sans);
