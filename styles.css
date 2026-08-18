@@ -228,9 +228,12 @@ section{padding:72px 0}
 
 /* in-page section nav */
 .case-toc{position:sticky;top:80px;font-size:.85rem;display:flex;flex-direction:column;gap:8px}
-.case-toc a{text-decoration:none;color:var(--muted);padding:3px 0;border-left:2px solid transparent;padding-left:12px}
+.case-toc a{text-decoration:none;color:var(--muted);padding:3px 0;border-left:2px solid transparent;padding-left:12px;transition:font-size .18s ease,color .18s ease,font-weight .18s ease,border-color .18s ease;transform-origin:left center}
 .case-toc a:hover{color:var(--primary)}
+.case-toc a.active{color:var(--primary);font-weight:600;font-size:1.02rem;border-left-color:var(--primary)}
 .case-layout{display:grid;grid-template-columns:200px 1fr;gap:48px;align-items:start}
+/* land rett under den faste toppmenyen når man klikker et sidebar-punkt */
+.case-section{scroll-margin-top:88px}
 
 .prevnext{display:flex;justify-content:space-between;gap:20px;padding:40px 0;flex-wrap:wrap}
 
