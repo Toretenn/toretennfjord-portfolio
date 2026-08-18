@@ -233,7 +233,7 @@ section{padding:72px 0}
 .case-toc a.active{color:var(--primary);font-weight:600;font-size:1.02rem;border-left-color:var(--primary)}
 .case-layout{display:grid;grid-template-columns:200px 1fr;gap:48px;align-items:start}
 /* land rett under den faste toppmenyen når man klikker et sidebar-punkt */
-.case-section{scroll-margin-top:88px}
+.case-section{scroll-margin-top:72px}
 
 .prevnext{display:flex;justify-content:space-between;gap:20px;padding:40px 0;flex-wrap:wrap}
 
